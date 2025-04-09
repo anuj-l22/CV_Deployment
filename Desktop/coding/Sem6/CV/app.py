@@ -323,7 +323,7 @@ def sample_random_image(domain_dir):
 # Modify run_demo to accept the selected algorithm (dropdown value)
 def run_demo(selected_algo):
     # Adjusting directory structure
-    data_dir = "data/PACS"
+    data_dir = "Desktop/coding/Sem6/CV/data/PACS"
     if not os.path.exists(data_dir):
         st.error(f"Data directory '{data_dir}' not found.")
         return
